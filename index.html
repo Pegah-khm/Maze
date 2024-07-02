@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="page">
+    <br>
+    <div id="menu">
+      <div class="custom-select">
+        <!-- a menu that enables users to select the difficulty of the maze -->
+        <select id="diffSelect">
+          <option value="10">Easy</option>
+          <option value="15">Medium</option>
+          <option value="25">Hard</option>
+        </select>
+      </div>
+      <!-- a button the user can click/tap in order to generate a new random maze -->
+      <input id="startMazeBtn" type="button" value="Start" />
+    </div>
+    <div id="view">
+      <div id="mazeContainer">
+        <canvas id="mazeCanvas" class="border" width="455" height="455"></canvas>
+      </div>
+    </div>
+    <p id="instructions">Select the difficulty of the Maze and click the Start button to generate a new maze</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
