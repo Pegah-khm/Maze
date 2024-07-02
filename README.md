@@ -1,10 +1,13 @@
-## Maze Generator by Pegah Khodakaramimamaghani 
+# Maze Generator
 A simple web-based maze generator that allows users to select difficulty levels and generates random mazes accordingly.
 
-# Description
+## Description
 The Maze Generator web app is built using Vanilla HTML, CSS, and JavaScript. It generates mazes dynamically on an HTML canvas based on user-selected difficulty levels (Easy, Medium, Hard).
 
-# Instructions
+## Maze Generation Logic
+The maze generation logic is implemented entirely within the script.js file. It utilizes a depth-first search (DFS) algorithm to create random mazes that are always solvable. The algorithm starts from a specified entrance and marks cells as visited while randomly removing walls between adjacent cells until all cells have been visited. This ensures that each generated maze is unique and presents varying levels of difficulty based on user selection.
+
+## Instructions
 1. **Setup**:
     - Ensure you have a web server to serve the HTML, CSS, and JavaScript files.
 
@@ -21,3 +24,7 @@ The Maze Generator web app is built using Vanilla HTML, CSS, and JavaScript. It 
 - `index.html`: The main HTML file.
 - `styles.css`: The CSS file for styling the application.
 - `script.js`: The JavaScript file containing the maze generation logic.
+
+## Author
+Name: Pegah Khodakaramimamaghani
+Email: p.khodakarami@gmail.com
